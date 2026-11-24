@@ -13,18 +13,18 @@ O **Around The U.S.** é uma aplicação web Full Stack onde os usuários podem 
 
 ### 🔗 Links do Projeto
 
-- **🌐 Site em Produção (Vercel):** [Clique aqui para acessar](https://web-project-api-full-lake.vercel.app/)
-- **⚙️ API Backend (Render):** [Clique aqui para acessar](https://around-api-full.onrender.com)
+- **Site em Produção (Vercel):** [Clique aqui para acessar](https://web-project-api-full-lake.vercel.app/)
+- **API Backend (Render):** [Clique aqui para acessar](https://around-api-full.onrender.com)
 
 > **Nota:** Como o backend está hospedado no plano gratuito da Render, a primeira requisição ao entrar no site pode levar até 50 segundos para responder (Cold Start). As requisições seguintes serão instantâneas.
 
 ---
 
-## 📸 Demonstração
+## Demonstração
 
 ![Demonstração do Around The U.S.](frontend/src/assets/around.gif)
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - **Autenticação de Usuário:** Cadastro e login seguros utilizando **JWT (JSON Web Tokens)**. As senhas são criptografadas no banco de dados usando `bcryptjs`.
 - **Gerenciamento de Perfil:** O usuário pode atualizar seu nome, descrição ("about") e foto de perfil.
@@ -37,7 +37,7 @@ O **Around The U.S.** é uma aplicação web Full Stack onde os usuários podem 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Front-end
 
@@ -56,7 +56,7 @@ O **Around The U.S.** é uma aplicação web Full Stack onde os usuários podem 
 
 ---
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```text
 around-the-us/
@@ -66,7 +66,7 @@ around-the-us/
 
 ---
 
-## ⚙️ Configuração
+## Configuração
 
 ### Backend (`backend/.env`)
 
@@ -90,7 +90,7 @@ Use o arquivo `backend/.env.example` como modelo.
 
 ---
 
-## 💻 Como Executar Localmente
+## Como Executar Localmente
 
 ```bash
 # Backend
@@ -109,7 +109,7 @@ O servidor só começa a escutar requisições depois de conectar ao MongoDB.
 
 ---
 
-## 🔌 Rotas da API
+## Rotas da API
 
 | Método | Rota                | Auth | Descrição                          |
 | ------ | ------------------- | ---- | ---------------------------------- |
@@ -126,7 +126,7 @@ O servidor só começa a escutar requisições depois de conectar ao MongoDB.
 
 ---
 
-## 🔒 Segurança
+## Segurança
 
 - Nunca versione o arquivo `.env`, os logs (`request.log`, `error.log`) ou a pasta `node_modules` — mantenha-os no `.gitignore`.
 - O segredo do JWT vem de `JWT_SECRET`; se ele já esteve no código de um repositório público, troque-o por um novo.
