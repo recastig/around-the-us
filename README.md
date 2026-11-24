@@ -59,7 +59,7 @@ O **Around The U.S.** é uma aplicação web Full Stack onde os usuários podem 
 ## 📁 Estrutura do Repositório
 
 ```text
-web_project_api_full/
+around-the-us/
 ├── backend/         # API Node.js/Express e conexão com MongoDB
 └── frontend/        # Aplicação React/Vite
 ```
