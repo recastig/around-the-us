@@ -1,4 +1,4 @@
-# 🌍 Around The U.S. - Full Stack
+# Around The U.S. - Full Stack
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -7,11 +7,11 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 O **Around The U.S.** é uma aplicação web Full Stack onde os usuários podem compartilhar e explorar seus lugares favoritos pelo mundo. Este projeto foi desenvolvido como requisito final do bootcamp de Desenvolvimento Web, unindo um front-end moderno em React a um back-end robusto em Node.js, com persistência de dados em MongoDB.
 
-### 🔗 Links do Projeto
+### Links do Projeto
 
 - **Site em Produção (Vercel):** [Clique aqui para acessar](https://web-project-api-full-lake.vercel.app/)
 - **API Backend (Render):** [Clique aqui para acessar](https://around-api-full.onrender.com)
